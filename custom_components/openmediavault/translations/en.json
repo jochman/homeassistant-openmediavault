@@ -32,7 +32,7 @@
         "step": {
             "basic_options": {
                 "data": {
-                    "scan_interval": "Scan interval",
+                    "scan_interval": "Scan interval (seconds)",
                     "smart_disable": "Disable S.M.A.R.T."
                 },
                 "title": "OpenMediaVault options",

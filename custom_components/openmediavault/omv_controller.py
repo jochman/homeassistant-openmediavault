@@ -89,7 +89,7 @@ class OMVControllerData(object):
     # ---------------------------
     @property
     def option_scan_interval(self):
-        """Config entry option scan interval."""
+        """Config entry option scan interval (seconds)."""
         scan_interval = self.config_entry.options.get(
             CONF_SCAN_INTERVAL, DEFAULT_SCAN_INTERVAL
         )
